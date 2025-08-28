@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulário de Reclamação/Sugestão</h1>
+    <form method="post">
+  <label for="Reclamação">Reclamação:</label>
+      <input
+        type="radio"
+        name="tipo"
+        id="Reclamação"
+        value="Reclamação"
+        required
+      /><br />
+<label for="Sugestão">Sugestão:</label>
+      <input
+        type="radio"
+        name="tipo"
+        id="Sugestão"
+        value="Sugestão"
+        required
+      /><br />
+     <label for="observações"> Mensagem </label>
+
+       <textarea name="observações" id="observações" rows="4" cols="50" placeholder="Digite sua observação">
+
+       </textarea>
+
+     <button type="submit">Enviar</button>
+      <button type="reset">Cancelar</button>
+
+
+    </form>
+</body>
+</html>
