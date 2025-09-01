@@ -1,5 +1,9 @@
 .caixa-de-dialogo {
+<<<<<<< Updated upstream
   margin: 1em;
+=======
+  margin: auto;
+>>>>>>> Stashed changes
   width: 600px;
   height: auto;
   background-color: #ccc;
@@ -22,7 +26,11 @@
   padding: 0.5rem 1rem;
   text-align: justify;
   line-height: 1.5rem;
+<<<<<<< Updated upstream
   font-family: "Segoe UI" "sans-serif";
+=======
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+>>>>>>> Stashed changes
 
   a {
     text-decoration: none;
@@ -31,7 +39,13 @@
     color: #4caf50;
   }
   .corpo::first-letter {
+<<<<<<< Updated upstream
     padding-left: 2rem;
+=======
+    font-size: 2rem;
+    font-weight: bold;
+    color: #4caf50;
+>>>>>>> Stashed changes
   }
 }
 button{
